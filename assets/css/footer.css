@@ -1,0 +1,11 @@
+.footer {
+	background: linear-gradient(135deg, #e8d07a 10%, #5312d6 100%);
+	padding: 8%;
+}
+
+.copyright {
+	font-size: 2em;
+	color: var(--footer-text);
+	font-style: italic;
+	text-align: center;
+}

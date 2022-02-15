@@ -1,19 +1,21 @@
 .nav {
-	background: rgb(131, 58, 180);
-	background: linear-gradient(
-		90deg,
-		rgba(131, 58, 180, 1) 0%,
-		rgba(253, 29, 29, 1) 51%,
-		rgba(252, 176, 69, 1) 100%
-	);
-	padding: 4%;
+	background: linear-gradient(135deg, #a0fe65 10%, #fa016d 100%);
 	text-align: end;
+	padding-bottom: 6%;
 }
 
 .nav-items {
 	display: inline;
 	padding: 1.5%;
 	margin-left: 1%;
+}
+
+.nav-logo {
+	text-align: left;
+}
+
+.nav-logo-icon {
+	width: 7%;
 }
 
 .anchor {
