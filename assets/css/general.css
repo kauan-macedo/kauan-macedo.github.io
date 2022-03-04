@@ -1,6 +1,6 @@
 :root {
-	font-size: 12.5px;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 12.5px;
 
 	/*variables*/
 
@@ -10,6 +10,11 @@
 	--main-background: rgb(230, 255, 242);
 	--main-title: rgb(255, 0, 200);
 	--main-description: rgb(0, 65, 48);
+	--price-text: rgb(0, 0, 0);
+	--calculator-tip: rgb(134, 0, 243);
+	--calculator-button-text-color: rgb(240, 255, 255);
+	--calculator-button-background: rgb(134, 0, 243);
+	--calculator-result: rgb(134, 0, 243);
 }
 
 .background {
@@ -18,11 +23,11 @@
 
 .main-title {
 	font-weight: bold;
-	font-size: 2.2em;
+	font-size: 2.3em;
 	text-align: center;
 	color: var(--main-title);
-	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 .main-description {

@@ -36,7 +36,28 @@
 		</header>
 
 		<main class="background">
-			<div></div>
+			<h1 class="main-title">Calculadora</h1>
+			<label>
+				<h4 class="calculator-tip">Separe as casas decimais utilizando " . "</h4>
+				<p class="price-text">
+					Digite o preço do álcool
+					<input class="price-input" id="price-alcohol" type="number" />
+				</p>
+				<p class="price-text">
+					Digite o preço da gasolina
+					<input class="price-input" id="price-gasoline" type="number" />
+				</p>
+			</label>
+			<div class="button-container">
+				<button type="button" id="calculator-button" class="button" value="calc">
+					<h2 class="button-text">Calcular</h2>
+				</button>
+			</div>
+
+			<div>
+				<p class="result-invisible" id="result-alcohol">Use álcool!</p>
+				<p class="result-invisible" id="result-gasoline">Use gasolina!</p>
+			</div>
 		</main>
 
 		<footer>
